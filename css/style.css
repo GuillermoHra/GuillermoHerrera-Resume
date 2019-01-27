@@ -1,0 +1,153 @@
+.header {
+    margin: auto;
+    height: 500px;
+    background: -webkit-linear-gradient(110deg, #e76e0b 60%, #eeb720 60%);
+    background: -o-linear-gradient(110deg, #e76e0b 60%, #eeb720 60%);
+    background: -moz-linear-gradient(110deg, #e76e0b 60%, #eeb720 60%);
+    background: linear-gradient(110deg, #e76e0b 60%, #eeb720 60%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    vertical-align: middle;
+    letter-spacing: -2px;
+    padding: 8px 16px;
+}
+#header-name {
+    padding-top: 170px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.header-job {
+    font-size: 24px;
+    font-weight: 800;
+}
+#header-job1{
+    padding-top: 25px;
+}
+#header-job2{
+    padding-top: 5px;
+}
+#header-job4{
+    padding-top: 5px;
+}
+
+.hero {
+    margin: 0px;
+    height: auto;
+    background-color: #f3e526;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    display: table;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#hero-image {
+    height: 400px;
+    width: 420px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.hero-text {
+    padding-left: 100px;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.hero-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.hero-text-body {
+    font-size: 20px;
+    m
+}
+
+.work-exp {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-color: #b4aa19;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#work-exp-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 620px;
+}
+.work-exp-table {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    display: table;
+    margin-top: 20px;
+}
+.work-exp-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.work-exp-text {
+    padding-left: 220px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+    font-size: 20px;
+}
+
+.academic-proj {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-color: #ccbf0b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.education {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-color: #a89d06;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-color: #e9db17;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#list-skills {
+    padding-left: 620px;
+    list-style-type: none;
+}
+
+.profiles {
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-color: #f5e509;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#list-profiles {
+    padding-left: 620px;
+    list-style-type: none;
+}
