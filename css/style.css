@@ -1,3 +1,6 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+}
 .header {
     margin: auto;
     height: 500px;
@@ -39,7 +42,7 @@
     padding-bottom: 20px;
 }
 #hero-image {
-    height: 400px;
+    height: 390px;
     width: 420px;
     border-radius: 50%;
     vertical-align: middle;
@@ -61,14 +64,13 @@
 }
 .hero-text-body {
     font-size: 20px;
-    m
 }
 
 .work-exp {
     margin: 0px;
     height: auto;
     width: auto;
-    background-color: #b4aa19;
+    background-color: #e76e0b;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -106,7 +108,7 @@
     margin: 0px;
     height: auto;
     width: auto;
-    background-color: #ccbf0b;
+    background-color: #f3e526;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -116,7 +118,7 @@
     margin: 0px;
     height: auto;
     width: auto;
-    background-color: #a89d06;
+    background-color: #e76e0b;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -126,10 +128,11 @@
     margin: 0px;
     height: auto;
     width: auto;
-    background-color: #e9db17;
+    background-color: #f3e526;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 #list-skills {
@@ -141,10 +144,11 @@
     margin: 0px;
     height: auto;
     width: auto;
-    background-color: #f5e509;
+    background-color: #ee7a1b;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 #list-profiles {
