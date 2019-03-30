@@ -73,7 +73,7 @@ app.get('/weather', function(req, res) {
 
 app.get('*', function(req, res) {
     res.send({
-        error: 'Esta ruta no existe'
+        error: 'This route does not exist'
     })
 })
 
