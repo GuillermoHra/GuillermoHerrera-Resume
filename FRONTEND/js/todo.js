@@ -25,15 +25,14 @@ input.addEventListener('keypress', function (event) {
       data: json_to_send,
       success: function(data){
         //console.log(data)
-        loadTodos()
-        //addTodo(data[i]._id, data[i].description, data[i].completed)
+        //loadTodos()
       },
       error: function(error_msg) {
         alert((error_msg['responseText']));
       }
     });
     input.value = '';
-    loadTodos()
+    //loadTodos()
   }
 })
 
