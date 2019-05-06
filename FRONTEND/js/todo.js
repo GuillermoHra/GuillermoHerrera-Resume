@@ -24,8 +24,8 @@ input.addEventListener('keypress', function (event) {
       dataType: 'json',
       data: json_to_send,
       success: function(data){
-        //console.log(data)
-        //loadTodos()
+        console.log(data)
+        loadTodos()
       },
       error: function(error_msg) {
         alert((error_msg['responseText']));
@@ -97,6 +97,8 @@ loadTodos()
 // });
 
 function addTodo(id, todoText, completed) {
+  $("#unfinished-list").empty();
+  $("#finished-list").empty();
   const html = ` <li><input type="checkbox" name="todo" value="${id}"><span>${todoText}</span></li> `
   if(completed == false) {
     $("#unfinished-list").append(html) 
