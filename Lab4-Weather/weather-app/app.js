@@ -15,7 +15,7 @@ function getWeatherData(city, callback) {
         if (error) {
             callback(error, undefined) 
         }
-        else{
+        else{ 
             const data = JSON.parse(body)
             if(data.message == 'Not Authorized - Invalid Token') {
                 callback('Invalid Mapbox Token', undefined)

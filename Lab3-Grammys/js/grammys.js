@@ -14,7 +14,7 @@ $.ajax({
             for(let i=0; i<data.fields.length; i++) {
                 if(this.value == i+1) {
                     new_html1 += ` <h1>${data.fields[i].field}</h1>
-                                <h4>${data.fields[i].description}</h4>
+                                <h4>${data.fields[i].description}</h4> 
                                 <h2>Categories</h2> `;
                     for(let j=0; j<data.fields[i].categories.length; j++) {
                         new_html1 += ` <h3>${data.fields[i].categories[j].category_name}</h3> 
