@@ -26,12 +26,14 @@ input.addEventListener('keypress', function (event) {
       success: function(data){
         //console.log(data)
         loadTodos()
+        //addTodo(data[i]._id, data[i].description, data[i].completed)
       },
       error: function(error_msg) {
         alert((error_msg['responseText']));
       }
     });
     input.value = '';
+    loadTodos()
   }
 })
 
@@ -86,7 +88,7 @@ function loadTodos() {
   });
 }
 
-//loadTodos()
+loadTodos()
 // o con jquery
 // $('input[name=newitem]').keypress(function(event){
 //     var keycode = (event.keyCode ? event.keyCode : event.which);
