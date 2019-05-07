@@ -97,6 +97,8 @@ loadTodos()
 // });
 
 function addTodo(id, todoText, completed) {
+  $("#unfinished-list").empty();
+  $("#finished-list").empty();
   const html = ` <li><input type="checkbox" name="todo" value="${id}"><span>${todoText}</span></li> `
   if(completed == false) {
     $("#unfinished-list").append(html) 
