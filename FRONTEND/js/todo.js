@@ -74,7 +74,9 @@ function loadTodos() {
     dataType: 'json',
     success: function(data){
       //console.log(data)
-
+      $("#unfinished-list").empty();
+      $("#finished-list").empty();
+      
       for( let i = 0; i < data.length; i++) {
         // aqui va su código para agregar los elementos de la lista
         //console.log(data[i].description)
@@ -97,8 +99,6 @@ loadTodos()
 // });
 
 function addTodo(id, todoText, completed) {
-  $("#unfinished-list").empty();
-  $("#finished-list").empty();
   const html = ` <li><input type="checkbox" name="todo" value="${id}"><span>${todoText}</span></li> `
   if(completed == false) {
     $("#unfinished-list").append(html) 
